@@ -1,0 +1,9 @@
+[package]
+name = "cursor-rules"
+version = "0.1.0"
+edition = "2021"
+authors = ["tkozzer <tkoz.dev@gmail.com>"]
+description = "Reserved crate for future Cursor IDE rule manager CLI."
+license = "MIT"
+repository = "https://github.com/tkozzer/cursor-rules"
+readme = "README.md"
