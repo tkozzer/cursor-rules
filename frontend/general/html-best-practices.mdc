@@ -1,0 +1,40 @@
+---
+description: Semantic HTML and web standards for accessible, performant web documents
+globs: 
+alwaysApply: false
+---
+---
+description: Semantic HTML and web standards for accessible, performant web documents
+alwaysApply: false
+---
+
+# HTML Best Practices
+
+- Use semantic elements (header, nav, main, article, section, aside, footer)
+- Choose elements based on meaning, not appearance
+- Use headings (h1-h6) in proper hierarchical order
+- Use lists (ul, ol) for grouped content
+- Always include alt attributes for images
+- Use proper form labels and fieldsets
+- Ensure sufficient color contrast
+- Implement proper ARIA labels when needed
+- Use semantic elements to convey meaning to screen readers
+- Include proper DOCTYPE declaration
+- Use valid HTML5 structure
+- Include meta viewport tag for responsive design
+- Set appropriate lang attribute on html element
+- Use proper meta tags for SEO and social media
+- Optimize images with appropriate formats and sizes
+- Use preload for critical resources
+- Implement lazy loading for images below the fold
+- Minimize HTTP requests
+- Use appropriate caching strategies
+- Use appropriate input types (email, tel, date, etc.)
+- Implement proper form validation
+- Use fieldsets and legends for grouped form controls
+- Provide clear error messages and feedback
+- Ensure forms are keyboard accessible
+- Use CSS Grid and Flexbox for layout instead of tables
+- Implement proper responsive images with picture element
+- Use web components when appropriate
+- Leverage native HTML validation attributes

@@ -1,0 +1,14 @@
+# Fullstack React Development Stack
+# Frontend rules
+frontend/react/react-core.mdc
+frontend/react/react-hooks.mdc
+frontend/react/tailwind-react.mdc
+frontend/general/html-best-practices.mdc
+
+# Backend rules
+backend/node/node-general.mdc
+backend/node/express.mdc
+backend/node/typescript-node.mdc
+
+# DevOps basics
+devops/docker.mdc 

@@ -1,0 +1,35 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Django Framework Best Practices
+
+- Follow Django's project and app structure conventions
+- Keep apps focused and loosely coupled
+- Use proper settings configuration for different environments
+- Organize templates and static files appropriately
+- Use Django ORM effectively with proper field types
+- Implement model validation and custom methods
+- Use migrations for all database schema changes
+- Optimize database queries with select_related and prefetch_related
+- Use class-based views for reusable functionality
+- Implement proper URL patterns with named URLs
+- Use Django's built-in authentication and permissions
+- Handle forms and form validation properly
+- Use Django template language efficiently
+- Implement template inheritance for consistent layouts
+- Use template filters and tags appropriately
+- Handle static files and media uploads properly
+- Use Django's built-in security features (CSRF, XSS protection)
+- Implement proper user authentication and authorization
+- Validate and sanitize all user inputs
+- Use Django's security middleware and settings
+- Write comprehensive tests for models, views, and forms
+- Use Django's test framework and fixtures
+- Mock external services and dependencies
+- Test user authentication and permissions
+- Use database query optimization techniques
+- Implement caching strategies (Redis, Memcached)
+- Use Django Debug Toolbar for development profiling
+- Optimize media and static file serving

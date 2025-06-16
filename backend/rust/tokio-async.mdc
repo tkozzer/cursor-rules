@@ -1,0 +1,31 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Tokio Async Programming Best Practices
+
+- Use async/await syntax for asynchronous operations
+- Understand the difference between blocking and non-blocking operations
+- Use proper async runtimes (Tokio) for async execution
+- Avoid blocking operations in async contexts
+- Use #[tokio::main] for simple applications
+- Configure runtime with appropriate thread pools
+- Use multi-threaded runtime for CPU-intensive tasks
+- Handle runtime shutdown gracefully
+- Use tokio::spawn for concurrent task execution
+- Implement proper task cancellation with CancellationToken
+- Use channels (mpsc, oneshot, broadcast) for communication
+- Avoid shared mutable state; prefer message passing
+- Propagate errors properly in async contexts
+- Use timeout operations to prevent hanging
+- Handle task panics and runtime errors
+- Implement proper cleanup in async destructors
+- Use async streams for processing large datasets
+- Implement backpressure in async pipelines
+- Use buffered channels for high-throughput scenarios
+- Profile async applications with tokio-console
+- Use async I/O for file and network operations
+- Implement proper connection pooling
+- Use async database drivers and HTTP clients
+- Handle connection failures and retries gracefully

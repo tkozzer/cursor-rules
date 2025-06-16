@@ -1,0 +1,7 @@
+{
+    "name": "Test JSON",
+    "description": "Should not be used if .txt or .yaml exists",
+    "rules": [
+        "devops/docker.mdc"
+    ]
+}

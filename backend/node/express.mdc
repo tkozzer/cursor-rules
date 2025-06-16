@@ -1,0 +1,35 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Express.js Framework Best Practices
+
+- Use modular router structure for organizing routes
+- Implement middleware for cross-cutting concerns
+- Use environment-based configuration
+- Organize controllers, services, and models separately
+- Use built-in Express middleware appropriately
+- Implement custom middleware for authentication and logging
+- Handle errors with proper error-handling middleware
+- Use compression and security middleware in production
+- Use Express Router for modular route organization
+- Implement proper parameter validation and sanitization
+- Use appropriate HTTP methods and status codes
+- Handle async operations properly in route handlers
+- Implement centralized error handling middleware
+- Use try-catch blocks for async route handlers
+- Provide meaningful error messages and status codes
+- Log errors appropriately for debugging
+- Use helmet for security headers
+- Implement CORS properly for cross-origin requests
+- Validate and sanitize all inputs
+- Use rate limiting to prevent abuse
+- Use compression middleware for response compression
+- Implement caching strategies for static content
+- Use connection pooling for database connections
+- Monitor application performance metrics
+- Write unit tests for route handlers and middleware
+- Use supertest for HTTP assertion testing
+- Mock external dependencies and databases
+- Test error scenarios and edge cases

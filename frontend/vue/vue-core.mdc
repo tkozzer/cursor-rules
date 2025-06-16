@@ -1,0 +1,33 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+---
+description: Vue.js core development best practices for modern applications
+alwaysApply: false
+---
+
+# Vue.js Core Development Rules
+
+- Use Vue 3 Composition API for all new projects
+- Prefer script setup syntax for cleaner code
+- Use TypeScript for type safety and better developer experience
+- Follow Vue.js style guide and best practices
+- Use Single File Components (.vue files) exclusively
+- Organize script, template, and style sections logically
+- Keep components focused and small
+- Use proper component naming conventions (PascalCase)
+- Use ref() for primitive reactive values
+- Use reactive() for objects and arrays
+- Understand the difference between ref and reactive
+- Use computed() for derived state
+- Use watch/watchEffect for side effects
+- Use v-for with unique keys always
+- Prefer v-show over v-if for frequent toggles
+- Use v-model for two-way binding appropriately
+- Minimize complex expressions in templates
+- Use v-memo for expensive list rendering
+- Implement proper component lazy loading
+- Use KeepAlive for expensive components
+- Optimize large lists with virtual scrolling when needed

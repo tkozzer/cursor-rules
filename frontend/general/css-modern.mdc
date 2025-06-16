@@ -1,0 +1,40 @@
+---
+description: Modern CSS best practices for maintainable, performant stylesheets
+globs: 
+alwaysApply: false
+---
+---
+description: Modern CSS best practices for maintainable, performant stylesheets
+alwaysApply: false
+---
+
+# Modern CSS Best Practices
+
+- Use CSS Grid for two-dimensional layouts
+- Use Flexbox for one-dimensional layouts
+- Implement proper responsive design with media queries
+- Use logical properties (margin-inline, padding-block) for internationalization
+- Use BEM methodology or similar naming conventions
+- Implement CSS custom properties (variables) for theming
+- Use CSS nesting when supported or with preprocessors
+- Organize CSS with proper cascade and specificity management
+- Use efficient selectors and avoid overly specific rules
+- Implement critical CSS for above-the-fold content
+- Use CSS containment (contain property) for performance
+- Optimize animations with transform and opacity
+- Use CSS logical properties for better internationalization
+- Implement CSS custom properties for dynamic theming
+- Use CSS aspect-ratio for maintaining proportions
+- Leverage CSS clamp() for responsive typography
+- Design mobile-first with progressive enhancement
+- Use relative units (rem, em, %) instead of fixed pixels
+- Implement proper responsive images and media
+- Use container queries when supported
+- Ensure sufficient color contrast ratios
+- Respect user preferences (prefers-reduced-motion, prefers-color-scheme)
+- Use focus indicators and skip links
+- Make interactive elements large enough for touch
+- Use CSS transforms for performant animations
+- Implement smooth transitions for user interactions
+- Respect prefers-reduced-motion for accessibility
+- Use animation-fill-mode appropriately

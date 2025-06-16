@@ -1,0 +1,4 @@
+name: "Test YAML"
+description: "Should not be used if .txt exists"
+rules:
+  - "backend/rust/rust-general.mdc"

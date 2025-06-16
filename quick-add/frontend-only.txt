@@ -1,0 +1,5 @@
+# Frontend Development Only
+frontend/react/react-core.mdc
+frontend/vue/vue-core.mdc
+frontend/general/html-best-practices.mdc
+frontend/general/css-modern.mdc 

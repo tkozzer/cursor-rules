@@ -1,0 +1,31 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Kubernetes Best Practices
+
+- Set resource requests and limits for all containers
+- Use horizontal pod autoscaling for variable workloads
+- Implement proper pod disruption budgets
+- Use namespaces for logical separation
+- Use ConfigMaps and Secrets for configuration
+- Never hardcode sensitive data in manifests
+- Use init containers for setup tasks
+- Implement proper health checks (liveness, readiness)
+- Use network policies for traffic control
+- Implement RBAC for access control
+- Use service accounts with minimal permissions
+- Secure communication with TLS
+- Use rolling updates for zero-downtime deployments
+- Implement blue-green or canary deployment patterns
+- Use Helm charts for complex application packaging
+- Version all Kubernetes manifests
+- Implement comprehensive logging and monitoring
+- Use Prometheus and Grafana for metrics
+- Set up alerting for critical issues
+- Monitor resource usage and performance
+- Use persistent volumes for stateful applications
+- Implement proper backup and recovery strategies
+- Choose appropriate storage classes
+- Consider data locality and performance requirements

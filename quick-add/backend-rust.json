@@ -1,0 +1,10 @@
+{
+    "name": "Rust Backend Development",
+    "description": "Complete Rust backend development setup with async programming and web frameworks",
+    "rules": [
+        "backend/rust/rust-general.mdc",
+        "backend/rust/actix-web.mdc",
+        "backend/rust/tokio-async.mdc",
+        "devops/docker.mdc"
+    ]
+}

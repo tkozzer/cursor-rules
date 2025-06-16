@@ -1,0 +1,35 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# FastAPI Framework Best Practices
+
+- Use dependency injection for shared resources
+- Organize routes with APIRouter for modular applications
+- Implement proper middleware for cross-cutting concerns
+- Use Pydantic models for request/response validation
+- Use Pydantic models for all request and response bodies
+- Implement proper input validation with Field constraints
+- Use Union types for optional fields appropriately
+- Leverage automatic type conversion and validation
+- Use async/await for I/O bound operations
+- Implement proper database connection pooling
+- Use async context managers for resource management
+- Handle concurrent requests efficiently
+- Implement proper authentication (OAuth2, JWT)
+- Use security dependencies for protected endpoints
+- Validate and sanitize all user inputs
+- Implement rate limiting and request size limits
+- Use docstrings and descriptions for automatic API docs
+- Provide examples in Pydantic models
+- Use tags to organize endpoints in documentation
+- Include proper HTTP status codes and responses
+- Use TestClient for endpoint testing
+- Mock external dependencies and databases
+- Test authentication and authorization
+- Write integration tests for complete workflows
+- Use background tasks for non-blocking operations
+- Implement caching for frequently accessed data
+- Use streaming responses for large datasets
+- Monitor application performance and metrics

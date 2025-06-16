@@ -1,0 +1,27 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Rust Development Best Practices
+
+- Leverage Rust's ownership system effectively
+- Use pattern matching extensively with match expressions
+- Prefer explicit error handling with Result<T, E>
+- Write comprehensive unit and integration tests
+- Follow Rust naming conventions (snake_case, PascalCase)
+- Use clippy and rustfmt consistently in CI/CD
+- Document public APIs with /// doc comments
+- Prefer iterators over manual loops
+- Use ? operator for error propagation
+- Create custom error types when appropriate
+- Use anyhow for application errors, thiserror for library errors
+- Handle all Result and Option types explicitly
+- Prefer borrowing over cloning when possible
+- Use Vec::with_capacity when size is known
+- Consider using Cow<str> for string handling
+- Profile before optimizing performance
+- Use #[derive] for common trait implementations
+- Implement Display and Debug for custom types
+- Use modules to organize code logically
+- Prefer composition over inheritance patterns

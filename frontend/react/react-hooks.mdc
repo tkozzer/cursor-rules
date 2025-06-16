@@ -1,0 +1,32 @@
+---
+description: React hooks best practices for efficient component state and side effects
+globs: 
+alwaysApply: false
+---
+---
+description: React hooks best practices for efficient component state and side effects
+alwaysApply: false
+---
+
+# React Hooks Best Practices
+
+- Always follow the Rules of Hooks
+- Use hooks at the top level of components only
+- Create custom hooks for reusable stateful logic
+- Prefer built-in hooks over third-party solutions
+- Use useState for simple component state
+- Use useReducer for complex state logic
+- Combine multiple related state variables when appropriate
+- Initialize state with functions for expensive computations
+- Use useEffect for side effects only
+- Always specify dependency arrays in useEffect
+- Clean up effects to prevent memory leaks
+- Split effects by concern, not by lifecycle
+- Extract reusable logic into custom hooks
+- Use descriptive names starting with "use" for custom hooks
+- Return objects for multiple values instead of arrays from custom hooks
+- Test custom hooks in isolation
+- Use useCallback for expensive function calculations
+- Use useMemo for expensive object/array computations
+- Use useRef for mutable values that don't trigger re-renders
+- Implement proper cleanup in useEffect

@@ -1,0 +1,31 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Python Development Best Practices
+
+- Follow PEP 8 style guidelines strictly
+- Use type hints for function signatures and variables
+- Write docstrings for all public functions and classes
+- Use meaningful variable and function names
+- Use f-strings for string formatting
+- Leverage dataclasses for simple data containers
+- Use pathlib for file path operations
+- Use context managers (with statements) for resource management
+- Use specific exception types, avoid bare except clauses
+- Implement proper logging instead of print statements
+- Use try/except/finally blocks appropriately
+- Create custom exception classes when needed
+- Use list comprehensions and generator expressions
+- Implement lazy evaluation with iterators and generators
+- Use built-in functions and libraries when possible
+- Profile code before optimizing
+- Write unit tests with pytest or unittest
+- Use fixtures for test setup and teardown
+- Mock external dependencies in tests
+- Aim for high test coverage
+- Use virtual environments for project isolation
+- Pin dependency versions in requirements.txt
+- Use poetry or pipenv for dependency management
+- Keep dependencies minimal and well-maintained

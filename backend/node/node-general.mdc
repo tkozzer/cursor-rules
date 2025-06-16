@@ -1,0 +1,35 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Node.js Development Best Practices
+
+- Use modern JavaScript (ES6+) and TypeScript when possible
+- Follow Node.js best practices and conventions
+- Implement proper error handling and logging
+- Use async/await for asynchronous operations
+- Organize code into logical modules and directories
+- Use package.json properly with appropriate scripts
+- Implement proper environment configuration
+- Follow semantic versioning for releases
+- Use async/await instead of callbacks when possible
+- Handle Promise rejections properly
+- Avoid callback hell with proper async patterns
+- Use streams for processing large datasets
+- Implement comprehensive error handling strategies
+- Use proper logging libraries (Winston, Pino)
+- Handle uncaught exceptions and unhandled rejections
+- Use specific error types and status codes
+- Validate and sanitize all inputs
+- Use security middleware (helmet, cors)
+- Implement rate limiting and input validation
+- Keep dependencies updated and audit regularly
+- Use connection pooling for databases
+- Implement proper caching strategies
+- Use clustering for CPU-intensive operations
+- Monitor application performance and memory usage
+- Write unit tests with Jest or Mocha
+- Implement integration tests for APIs
+- Use mocking for external dependencies
+- Maintain high test coverage

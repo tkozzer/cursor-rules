@@ -1,0 +1,11 @@
+name: "Fullstack Vue Development"
+description: "Complete Vue.js fullstack development setup with Node.js backend and modern tooling"
+rules:
+  - "frontend/vue/vue-core.mdc"
+  - "frontend/vue/vue-composition.mdc"
+  - "frontend/general/html-best-practices.mdc"
+  - "frontend/general/css-modern.mdc"
+  - "backend/node/node-general.mdc"
+  - "backend/node/express.mdc"
+  - "backend/node/typescript-node.mdc"
+  - "devops/docker.mdc" 

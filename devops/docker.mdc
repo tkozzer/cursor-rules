@@ -1,0 +1,19 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Docker Best Practices
+
+- Use multi-stage builds to reduce image size
+- Use specific version tags, avoid 'latest'
+- Run containers as non-root user
+- Use .dockerignore to exclude unnecessary files
+- Scan images for vulnerabilities regularly
+- Use minimal base images (alpine, distroless)
+- Don't include secrets in images
+- Use secrets management for sensitive data
+- Optimize layer caching strategically
+- Minimize the number of layers
+- Use COPY instead of ADD when possible
+- Clean up package manager caches

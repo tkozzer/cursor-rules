@@ -1,0 +1,6 @@
+name: "Complete DevOps Setup"
+description: "Comprehensive DevOps and infrastructure rules for modern development workflows"
+rules:
+  - "devops/docker.mdc"
+  - "devops/kubernetes.mdc"
+  - "devops/ci-cd.mdc" 

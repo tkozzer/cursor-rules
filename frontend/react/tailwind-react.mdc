@@ -1,0 +1,32 @@
+---
+description: Tailwind CSS integration with React for utility-first styling
+globs: 
+alwaysApply: false
+---
+---
+description: Tailwind CSS integration with React for utility-first styling
+alwaysApply: false
+---
+
+# Tailwind CSS with React Integration
+
+- Use PostCSS and autoprefixer with Tailwind
+- Configure Tailwind to purge unused styles in production
+- Set up proper IntelliSense and autocomplete
+- Use the official Tailwind CSS VS Code extension
+- Use utility classes directly in JSX className props
+- Create reusable component variants with utility combinations
+- Use conditional classes with template literals or clsx library
+- Avoid inline styles; prefer Tailwind utilities
+- Use responsive prefixes (sm:, md:, lg:, xl:) consistently
+- Design mobile-first with appropriate breakpoints
+- Use responsive utilities for spacing, sizing, and layout
+- Test responsive behavior across different screen sizes
+- Group related utilities logically in className strings
+- Use Tailwind's spacing scale consistently
+- Leverage Tailwind's color palette and design tokens
+- Create custom utility classes sparingly in @layer utilities
+- Use Tailwind with React component libraries like Headless UI
+- Create styled component wrappers for complex utility combinations
+- Use CSS-in-JS solutions like twin.macro for complex scenarios
+- Maintain consistent design system through Tailwind configuration

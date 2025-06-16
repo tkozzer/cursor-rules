@@ -1,0 +1,27 @@
+# Complete Cursor Rules Collection
+# All available rules for comprehensive setup
+
+# Frontend
+frontend/react/react-core.mdc
+frontend/react/react-hooks.mdc
+frontend/react/tailwind-react.mdc
+frontend/vue/vue-core.mdc
+frontend/vue/vue-composition.mdc
+frontend/general/html-best-practices.mdc
+frontend/general/css-modern.mdc
+
+# Backend
+backend/rust/rust-general.mdc
+backend/rust/actix-web.mdc
+backend/rust/tokio-async.mdc
+backend/python/python-general.mdc
+backend/python/fastapi.mdc
+backend/python/django.mdc
+backend/node/node-general.mdc
+backend/node/express.mdc
+backend/node/typescript-node.mdc
+
+# DevOps
+devops/docker.mdc
+devops/kubernetes.mdc
+devops/ci-cd.mdc 

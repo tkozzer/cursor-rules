@@ -1,0 +1,31 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Actix-web Framework Best Practices
+
+- Use modular application structure with separate modules
+- Implement proper middleware for cross-cutting concerns
+- Use Application Data for shared state management
+- Organize routes in separate modules by domain
+- Use proper extractors for request data (Json, Query, Path)
+- Implement comprehensive error handling with custom error types
+- Use async handlers for I/O bound operations
+- Return appropriate HTTP status codes
+- Implement authentication and authorization middleware
+- Use logging middleware for request tracking
+- Add CORS middleware for cross-origin requests
+- Implement rate limiting and security headers
+- Use connection pooling for database connections
+- Implement proper transaction management
+- Use async database drivers (sqlx, sea-orm)
+- Handle database errors appropriately
+- Write integration tests for API endpoints
+- Use actix-web test utilities
+- Mock external dependencies in tests
+- Test error scenarios and edge cases
+- Use streaming responses for large data
+- Implement proper caching strategies
+- Use compression middleware
+- Monitor application metrics and performance

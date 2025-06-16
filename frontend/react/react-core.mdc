@@ -1,0 +1,27 @@
+---
+description: React core development best practices for clean, performant components
+globs: 
+alwaysApply: false
+---
+---
+description: React core development best practices for clean, performant components
+alwaysApply: false
+---
+
+# React Core Development Rules
+
+- Use functional components with hooks exclusively
+- Prefer composition over inheritance patterns
+- Destructure props at the component level
+- Use meaningful component and variable names
+- Keep components small and focused on single responsibility
+- Use TypeScript for all new React components
+- Use arrow functions for component definitions
+- Avoid inline object/function creation in JSX
+- Use React.memo for expensive components
+- Implement proper dependency arrays in useEffect
+- Use useMemo and useCallback judiciously for performance
+- Implement error boundaries for component trees
+- Use proper error states in components
+- Handle loading and error states explicitly
+- Follow React best practices and established patterns

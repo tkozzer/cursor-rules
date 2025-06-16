@@ -1,0 +1,36 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+---
+description: Vue 3 Composition API best practices for efficient component logic
+alwaysApply: false
+---
+
+# Vue Composition API Best Practices
+
+- Use script setup syntax for cleaner component definition
+- Prefer Composition API over Options API for new components
+- Use defineProps and defineEmits with TypeScript interfaces
+- Leverage automatic prop/emit type inference
+- Use ref() for primitive values that need reactivity
+- Use reactive() for objects when you need reactive properties
+- Use readonly() to prevent mutations of reactive data
+- Understand when to use shallowRef vs ref
+- Extract reusable logic into composable functions
+- Use descriptive names starting with "use" (e.g., useCounter)
+- Return reactive values and methods from composables
+- Make composables testable and framework-agnostic when possible
+- Use onMounted, onUnmounted for lifecycle hooks
+- Use watchEffect for automatic dependency tracking
+- Use watch for specific reactive value changes
+- Clean up effects and event listeners in onUnmounted
+- Use provide/inject for dependency injection
+- Implement proper TypeScript types for composables
+- Use toRefs when destructuring reactive objects
+- Leverage computed properties for derived state
+- Use shallowReactive for large objects when deep reactivity isn't needed
+- Implement proper cleanup to prevent memory leaks
+- Use nextTick for DOM updates when necessary
+- Consider using readonly for immutable data

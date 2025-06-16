@@ -1,0 +1,35 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# TypeScript with Node.js Best Practices
+
+- Use strict TypeScript configuration (strict: true)
+- Configure proper module resolution and target
+- Use path mapping for clean imports
+- Enable incremental compilation for faster builds
+- Use proper type annotations for function parameters and returns
+- Create custom types and interfaces for domain models
+- Use generic types for reusable components
+- Avoid 'any' type; use 'unknown' when necessary
+- Organize types in separate declaration files
+- Use barrel exports for clean module imports
+- Separate compiled JavaScript from source TypeScript
+- Use proper build and development scripts
+- Use typed error classes with proper inheritance
+- Implement Result/Either patterns for error handling
+- Use discriminated unions for different error types
+- Handle async errors with proper type safety
+- Use ts-node for development and testing
+- Configure nodemon for automatic restarts
+- Use proper linting with @typescript-eslint
+- Set up debugging with source map support
+- Write type-safe tests with proper type assertions
+- Use TypeScript with Jest or other testing frameworks
+- Mock dependencies with proper type safety
+- Test TypeScript compilation as part of CI/CD
+- Use TypeScript's incremental compilation
+- Configure proper build optimization
+- Use tree shaking for smaller bundle sizes
+- Monitor compilation performance and memory usage

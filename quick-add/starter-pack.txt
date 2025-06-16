@@ -1,0 +1,13 @@
+# Essential Development Starter Pack
+# Basic frontend
+frontend/general/html-best-practices.mdc
+frontend/general/css-modern.mdc
+
+# Choose your framework
+frontend/react/react-core.mdc
+
+# Basic backend
+backend/node/node-general.mdc
+
+# Essential DevOps
+devops/docker.mdc 

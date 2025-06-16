@@ -1,0 +1,7 @@
+# Valid entries
+frontend/react/react-core.mdc
+
+# Invalid entries (should generate warnings/errors)
+nonexistent/file.mdc
+frontend/invalid.js
+backend/rust/missing.mdc 

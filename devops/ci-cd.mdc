@@ -1,0 +1,31 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# CI/CD Best Practices
+
+- Design fast-failing pipelines with early error detection
+- Use parallel execution for independent tasks
+- Implement proper pipeline stages (build, test, deploy)
+- Keep pipelines simple and maintainable
+- Run linting and formatting checks in CI
+- Implement comprehensive automated testing
+- Use code coverage reporting and thresholds
+- Perform security scanning and vulnerability assessment
+- Use immutable build artifacts
+- Implement proper versioning and tagging strategies
+- Use infrastructure as code (Terraform, CloudFormation)
+- Implement blue-green or canary deployment strategies
+- Scan code for security vulnerabilities
+- Use secure secret management in pipelines
+- Implement proper access controls and permissions
+- Audit and monitor pipeline activities
+- Implement proper logging and monitoring
+- Set up alerting for pipeline failures
+- Provide fast feedback to developers
+- Track deployment metrics and success rates
+- Use consistent environments across stages
+- Implement proper environment provisioning
+- Use configuration management for environment setup
+- Maintain environment parity between dev and production
